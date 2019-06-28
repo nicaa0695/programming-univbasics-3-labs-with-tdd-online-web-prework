@@ -7,8 +7,8 @@ describe "./calculator.rb" do
 
     expect(first_number).to be_an(Integer).or be_a(Float)
   end
-  first_number = 11
-  second_number = 9
+  first_number = "11"
+  second_number = "9"
   sum = first_number+second_number
   difference = first_number-second_number
   product = first_number*second_number
